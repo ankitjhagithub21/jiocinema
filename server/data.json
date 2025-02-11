@@ -11,7 +11,8 @@
           "director": "Christopher Nolan",
           "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
           "country": "USA",
-          "box_office": "$829.9 million"
+          "box_office": "$829.9 million",
+          "image":"https://m.media-amazon.com/images/I/61gz2gcfkAL._AC_UF894,1000_QL80_.jpg"
         },
         {
           "title": "The Dark Knight",
@@ -24,7 +25,8 @@
           "director": "Christopher Nolan",
           "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
           "country": "USA",
-          "box_office": "$1.005 billion"
+          "box_office": "$1.005 billion",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgMtkGBfHb06Qfe-eI5WYVbzMZ18yHhdowsA&s"
         },
         {
           "title": "Interstellar",
@@ -37,7 +39,8 @@
           "director": "Christopher Nolan",
           "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
           "country": "USA",
-          "box_office": "$677.5 million"
+          "box_office": "$677.5 million",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0zt0lp-O3XdL8zzdrEvyzmcl6kOwfgbv4xQ&s"
         },
         {
           "title": "Parasite",
@@ -50,7 +53,8 @@
           "director": "Bong Joon Ho",
           "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
           "country": "South Korea",
-          "box_office": "$263.1 million"
+          "box_office": "$263.1 million",
+          "image":"https://m.media-amazon.com/images/I/81-rG+CAzuL._AC_UF894,1000_QL80_.jpg"
         },
         {
           "title": "Avengers: Endgame",
@@ -63,7 +67,64 @@
           "director": "Anthony Russo, Joe Russo",
           "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
           "country": "USA",
-          "box_office": "$2.798 billion"
+          "box_office": "$2.798 billion",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjTp8t-d4EjxK41bgUMQr5kXq3nn1aBix2Sg&s"
+        },
+        {
+          "title": "3 Idiots",
+          "description": "Two friends embark on a journey to find their long-lost college buddy who changed their lives.",
+          "rating": 8.4,
+          "language": "Hindi",
+          "release_year": 2009,
+          "genre": ["Comedy", "Drama"],
+          "duration": "170 min",
+          "director": "Rajkumar Hirani",
+          "cast": ["Aamir Khan", "R. Madhavan", "Sharman Joshi"],
+          "country": "India",
+          "box_office": "$87 million",
+          "image": "https://m.media-amazon.com/images/I/61NSZeiNF3L._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "title": "Dangal",
+          "description": "A former wrestler trains his daughters to become world-class wrestlers.",
+          "rating": 8.3,
+          "language": "Hindi",
+          "release_year": 2016,
+          "genre": ["Biography", "Drama", "Sport"],
+          "duration": "161 min",
+          "director": "Nitesh Tiwari",
+          "cast": ["Aamir Khan", "Fatima Sana Shaikh", "Sanya Malhotra"],
+          "country": "India",
+          "box_office": "$311 million",
+          "image": "https://www.tallengestore.com/cdn/shop/products/7381744058548A_393fc709-d8bd-416d-9b71-823d7d492afa.jpg?v=1683929345"
+        },
+        {
+          "title": "Sholay",
+          "description": "Two criminals are hired to capture a ruthless bandit terrorizing a village.",
+          "rating": 8.1,
+          "language": "Hindi",
+          "release_year": 1975,
+          "genre": ["Action", "Adventure", "Drama"],
+          "duration": "162 min",
+          "director": "Ramesh Sippy",
+          "cast": ["Amitabh Bachchan", "Dharmendra", "Hema Malini"],
+          "country": "India",
+          "box_office": "$50 million",
+          "image": "https://m.media-amazon.com/images/I/61NhAcNBC+L._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "title": "Gangs of Wasseypur",
+          "description": "A tale of power, revenge, and bloodshed spanning generations in the coal mafia-ridden Wasseypur.",
+          "rating": 8.2,
+          "language": "Hindi",
+          "release_year": 2012,
+          "genre": ["Action", "Crime", "Drama"],
+          "duration": "321 min",
+          "director": "Anurag Kashyap",
+          "cast": ["Manoj Bajpayee", "Nawazuddin Siddiqui", "Richa Chadha"],
+          "country": "India",
+          "box_office": "$11 million",
+          "image": "https://m.media-amazon.com/images/I/A1CBx9ffNxL.jpg"
         }
         
     
