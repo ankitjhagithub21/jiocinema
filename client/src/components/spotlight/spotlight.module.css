@@ -1,0 +1,29 @@
+.spotlight{
+    padding: 3%;
+    width: 100%;
+       
+}
+
+
+.spotlight > h1 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+}
+
+
+
+.container > img{
+    width: 45%;
+    height: 100%;
+    border-radius: 10px;
+}
+
