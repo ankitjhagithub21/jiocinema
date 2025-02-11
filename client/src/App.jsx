@@ -7,7 +7,7 @@ import Shows from "./components/shows/Shows"
 import SpotLight from "./components/spotlight/SpotLight"
 
 const App = () => {
-  
+  const [movies,setMovies] = useState([])
   const [hindiMovies,setHindiMovies] = useState([])
   const [englishMovies,setEnglishMovies] = useState([])
   const [korenMovies,setKoreanMovies] = useState([])
@@ -17,7 +17,7 @@ const App = () => {
       try{
         const res = await fetch("http://localhost:3000/movies");
         const data = await res.json();
-
+        setMovies(data)
         const hindi = data.filter((movie)=> movie.language === "Hindi");
         setHindiMovies(hindi)
 
@@ -36,7 +36,7 @@ const App = () => {
   },[])
   return (
     <>
-    <Header/>
+    <Header movies={movies}/>
     <Carousel/>
     <Channels/>
     <SpotLight/>
