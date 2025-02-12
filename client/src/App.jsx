@@ -15,7 +15,7 @@ const App = () => {
   useEffect(()=>{
     const fetchMovies = async() => {
       try{
-        const res = await fetch("http://localhost:3000/movies");
+        const res = await fetch(`${import.meta.env.VITE_SERVER_URL}/movies`);
         const data = await res.json();
         setMovies(data)
         const hindi = data.filter((movie)=> movie.language === "Hindi");
