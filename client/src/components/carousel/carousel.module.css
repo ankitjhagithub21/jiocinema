@@ -20,3 +20,9 @@
 .carousel::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width:768px) {
+    .carousel > img{
+        min-width: 80%;
+    }
+}
