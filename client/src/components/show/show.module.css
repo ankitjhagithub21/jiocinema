@@ -5,6 +5,7 @@
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    min-width: 150px;    
     
 }
 
@@ -23,6 +24,13 @@
     transition: 0.5s;
     
 }
+
 .show:hover .movieTitle{
     bottom: 0;
+}
+
+@media (max-width:768px) {
+    .show{
+        height: 200px;
+    }
 }

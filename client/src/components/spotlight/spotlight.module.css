@@ -17,8 +17,12 @@
     align-items: center;
     justify-content: start;
     height: 100%;
+    overflow-x:scroll ;
 }
 
+.container::-webkit-scrollbar{
+    display: none;
+}
 
 
 .container > img{
@@ -27,3 +31,8 @@
     border-radius: 10px;
 }
 
+@media (max-width:768px) {
+    .container > img {
+        width: 90%;
+    }
+}
